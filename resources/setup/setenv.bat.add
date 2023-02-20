@@ -1,0 +1,6 @@
+
+:: AppDynamics monitoring options
+
+set JAVA_NEWRELIC_OPTS=-javaagent:".\packages\WxNewRelicAgent\resources\newrelic\newrelic.jar"
+
+set JAVA_CUSTOM_OPTS=%JAVA_CUSTOM_OPTS% %JAVA_NEWRELIC_OPTS%

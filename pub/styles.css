@@ -1,0 +1,594 @@
+/* Specific */
+
+.textInput {
+  padding: 10px;
+  margin: 10px;
+  font-size: 12pt;
+}
+:root{
+  font-size: 16px;
+}
+body {
+  margin: 0px;
+  padding-top: 0px;
+  font-family: "Roboto", "Helvetica", Arial, sans-serif;
+  overflow: hidden;
+  color: #333;
+}
+h1 {
+  font-weight: lighter;
+  color: #36597d;
+}
+h2 {
+  font-weight: lighter;
+  color: #36597d;
+}
+h4 {
+  font-weight: lighter;
+  color: #36597d;
+}
+h5 {
+  color: #36597d;
+  font-size: 14px;
+  font-weight: lighter;
+}
+hr {
+  color: #6f7177
+}
+h2 {
+  margin-top: 30px;
+}
+p {
+  font-size: 13px;
+  background-color: transparent;
+}
+b {
+  background: transparent;
+}
+.quote {
+  max-width: 1200px;
+  margin-left: 30px;
+  padding: 10px;
+  background: lightcyan;
+  border-left: lightgray solid 1px;
+}
+header.main-head {
+  --dlt-color-text-interactive-primary: var(--dlt-color-icon-interactive-secondary, $almost-black);
+  text-align: left;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  background-color: #fff;
+  border-bottom: 0px solid #cccccb;
+  color: var(--dlt-color-interactive-primary-default, #1776bf);
+  border-radius: 0px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  position: fixed;
+  top: 0px;
+  left: 0px
+  z-index: 999;
+  padding: 0 24px;
+  width: 100%;
+  -webkit-box-shadow: var(--dlt-elevation-md, 0px 2px 12px 2px rgba(0, 0, 0, 0.12));
+  box-shadow: var(--dlt-elevation-md, 0px 2px 12px 2px rgba(0, 0, 0, 0.12));
+}
+.header-selected {
+  background-color: cornflowerblue;
+  color: white;
+}
+.header:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+.collapsible {
+	background-color: cornflowerblue;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 12px;
+  }
+  .banner {
+    # background-color: #3774b9; 
+    color: #36597d;
+    padding: 15px; 
+    text-align: left;
+    font-size: large;
+  }
+  .contentx {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  .active, .collapsible:hover {
+	background-color: cornflowerblue;
+  }
+  .visible-content {
+  padding: 0 18px;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  }
+  .content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+  }
+  
+  .pill-button {
+	background-color: #3774b9;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+  }
+  .pill-button:disabled {
+	background: lightgray;
+  }
+  .rule-input {
+	background-color: #141374; 
+	color: white; 
+	border-color: #141374; 
+	border-radius: 2px;
+	height: 10px;
+	font-size: 10px;
+  }
+  .filter-select {
+	-webkit-appearance:none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 1px;
+  padding: 10px;
+	border: 1px solid gray;
+  margin-left: 15px;
+  position: relative;
+  width: 150px;
+  }
+ .filter-select:after {
+      content: '\25BC';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      font-size: 14px;
+      border: 1px solid #565656;
+      background: #0e7b53;
+      color: #aaaaaa;
+      padding: 11px 15px;
+      pointer-events: none;
+  }
+  .rule-select {
+	-webkit-appearance:none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #141374; 
+	color: white; 
+	border-color: #141374; 
+	border-radius: 5px;
+	width: 20px;
+	height: 15px;
+	padding-left: 5px;
+	text-align: right;
+	font-size: 10px;
+  }
+  .hide {
+	display: none;
+  }
+  .hide:hover {
+	display: block;
+  }  
+  .show:hover + div {
+	display: block;
+  }
+.plain-button {
+  border-style: none;
+  background-color: transparent;
+}
+.slider {
+  -webkit-appearance: none;
+  margin-top: 0px;
+  width: 45px;
+  height: 14px;
+  background: #141374;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 14px;
+  color: white;
+  background: #4a9881;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 14px;
+  color: white;
+  background: #4a9881;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.hovertext {
+  position: relative;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.svg-level {
+  filter: invert(1.0) saturate(5);
+}
+
+/* show/hide Button */
+.jc-toggle {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  background-color: #16a085;
+  border: 1.5px solid #16a085;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  width: 50px;
+  height: 17px;
+}
+
+/* To create surface of toggle button */
+.jc-toggle:before {
+  font-weight: bold;
+  color: white;
+  margin-left: 6px;
+  content: 'enable';
+}
+.jc-toggle:checked:before {
+  position: absolute;
+  margin-top: -2px;
+  margin-left: -2px;
+  padding-left: 6px;
+  background-color: red;
+  border: 1.5px solid red;
+  border-radius: 5px;
+  width: 45px;
+  height: 15px;
+  font-weight: bold;
+  color: white;
+  content: 'remove';
+}
+
+/* Toggle Button */
+.cm-toggle {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* To create surface of toggle button */
+.cm-toggle:after {
+  content: '';
+  width: 30px;
+  height: 14px;
+  display: inline-block;
+  background: rgba(196, 195, 195, 0.55);
+  border-radius: 14px;
+  clear: both;
+}
+
+/* Contents before checkbox to create toggle handle */
+.cm-toggle:before {
+  content: '';
+  width: 13px;
+  height: 13px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -0px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Shift the handle to left on check event */
+.cm-toggle:checked:before {
+  left: 18px;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+/* Background color when toggle button will be active */
+.cm-toggle:checked:after {
+  background: #16a085;
+}
+/* Transition for smoothness */
+.cm-toggle,
+.cm-toggle:before,
+.cm-toggle:after,
+.cm-toggle:checked:before,
+.cm-toggle:checked:after {
+  transition: ease .3s;
+  -webkit-transition: ease .3s;
+  -moz-transition: ease .3s;
+  -o-transition: ease .3s;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*************************************************************
+/* General */
+
+body {
+	margin: 0px;
+	padding-top: 0px;
+	font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+	overflow: hidden;
+}
+
+h1 {
+	margin-left: 15px;
+	font-size: 21px;
+	font-weight: bolder;
+	color : color(srgb 0.178 0 0.696);
+}
+a {
+	color: color(srgb 0.178 0 0.696);
+	text-decoration: none !important;
+}
+a:visited {
+	color: color(srgb 0.178 0 0.696);
+}
+
+div.mat-expansion-panel-body {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.menu-navigator {
+	border: 1px solid #ccc;
+	color: #323232;
+	background-color: #f9f9f9;
+	line-height: 20px;
+	padding: 5px;
+}
+/* .mat-list-item-content {
+	padding-right:0px !important;
+} */
+.mat-card {
+	margin: 10px !important;
+}
+.mat-card-title {
+	font-size: 1em;
+	color: gray;
+}
+.mat-figure {
+	align-items: flex-start !important;
+}
+.mat-table {
+	box-shadow: none !important;
+	background-color: transparent;
+}
+.mat-paginator { 
+	background-color: transparent;
+}
+.mat-content > mat-panel-title, .mat-content > mat-panel-description {
+  flex: 0 0 auto;
+}
+.mat-grid-tile-header {
+	background-color: #eeeeee !important;
+	color: gray !important;
+}
+.mat-slider-thumb-label {
+  transform: rotate(45deg) !important;
+  border-radius: 50% 50% 0 !important;
+}
+
+.mat-expansion-panel:not([class*=mat-elevation-z]) {
+	box-shadow: none !important;
+}
+
+.mat-slider-thumb {
+  transform: scale(0) !important;
+}
+
+.mat-slider-thumb-label-text {
+  opacity: 1 !important;
+}
+
+.mat-row.selected {
+       background-color: rgba(0,0,0,0.2);
+}
+.mat-menu-panel {
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+.mat-menu-content {
+	background-color: rgb(23, 115, 187) !important;
+}
+.mat-tab-body-wrapper {
+	height: 100%;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.radio-button {
+  margin: 5px;
+}
+
+.page-wrapper { 
+	position: absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin: 10px;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.005);
+	display: flex;
+	flex-direction: column;
+}
+.page-content-title-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.page-content-title {
+	flex-grow: 0;
+}
+.page-content-wrapper {
+	padding: 10px;
+	flex-grow: 1;
+	overflow: auto; 
+}
+.page-scrollable-content {
+	position: relative;
+}
+.page-scrollable-content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -2rem;
+  width: 2rem;
+  height: 1px;
+}
+
+.right-aligned-header > .mat-content {
+    justify-content: space-between;
+}
+
+@-webkit-keyframes rotation {
+   from {-webkit-transform: rotate(0deg);}
+   to {-webkit-transform: rotate(359deg);}
+}
+@-moz-keyframes rotation {
+   from {-moz-transform: rotate(0deg);}
+   to {-moz-transform: rotate(359deg);}
+}
+@-o-keyframes rotation {
+   from {-o-transform: rotate(0deg);}
+   to {-o-transform: rotate(359deg);}
+}
+@keyframes rotation {
+   from {transform: rotate(0deg);}
+   to {transform: rotate(359deg);}
+}
+
+.searchTerm {
+     width: 80%;
+     border: 3px solid #00B4CC;
+     padding: 5px;
+     height: 20px;
+     border-radius: 5px;
+     outline: none;
+     color: #9DBFAF;
+   }
+   
+   .searchTerm:focus {
+     color: #00B4CC;
+   }
+   
+/** tabs
+*/
+
+.tab {
+     overflow: hidden;
+     border: 1px solid #ccc;
+     background-color: #f1f1f1;
+   }
+   
+   /* Style the buttons that are used to open the tab content */
+   .tab button {
+     background-color: inherit;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     transition: 0.3s;
+   }
+   
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+     background-color: #ddd;
+   }
+   
+   /* Create an active/current tablink class */
+   .tab button.active {
+     background-color: #ccc;
+   }
+   
+   /* Style the tab content */
+   .tabcontent {
+     display: none;
+     padding: 6px 12px;
+     border: 1px solid #ccc;
+     border-top: none;
+   }
+   
+   .tabcontent {
+     animation: fadeEffect 1s; /* Fading effect takes 1 second */
+   }
+   
+   /* Go from zero to full opacity */
+   @keyframes fadeEffect {
+     from {opacity: 0;}
+     to {opacity: 1;}
+   }

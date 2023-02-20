@@ -1,0 +1,6 @@
+
+# New Relic configuration
+
+JAVA_NEWRELIC_OPTS="$JAVA_OPTS -javaagent:/usr/local/tomcat/newrelic/newrelic.jar"
+
+JAVA_CUSTOM_OPTS="${JAVA_CUSTOM_OPTS} ${JAVA_NEWRELIC_OPTS}"

@@ -1,0 +1,8 @@
+.DS_Store
+/logs
+resources/conf/IS
+resources/ver22.9.0.34210/logs
+resources/ver22.9.0.34210/conf/IS
+*.bak
+*.*.bak
+*.*.*.txt

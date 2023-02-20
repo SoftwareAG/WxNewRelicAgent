@@ -1,0 +1,4 @@
+
+# New Relic
+
+wrapper.java.additional.602=-javaagent:./packages/WxNewRelicAgent/resources/newrelic/newrelic.jar

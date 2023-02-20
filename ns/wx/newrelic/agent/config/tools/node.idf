@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">wx.appdynamics.agent.config.tools</value>
+  <value name="is_public">false</value>
+  <value name="shared">CQpwdWJsaWMgc3RhdGljIFN0cmluZyBmaW5kUGF0aChTdHJpbmcgYmFzZVBhdGgsIFN0cmluZyBm
+aWxlKSB7CiAgICAKCUZpbGVbXSBmaWxlcyA9IG5ldyBGaWxlKGJhc2VQYXRoKS5saXN0RmlsZXMo
+KTsKCVN0cmluZyBmb3VuZFBhdGg7CgoJZm9yIChpbnQgaSA9IDA7IGkgPCBmaWxlcy5sZW5ndGg7
+IGkrKykgewoJCQkJCQoJCWlmIChmaWxlLmVxdWFscyhmaWxlc1tpXS5nZXROYW1lKCkpKSB7CgkJ
+CXJldHVybiBmaWxlc1tpXS5nZXRBYnNvbHV0ZVBhdGgoKTsKCQl9IGVsc2UgaWYgKGZpbGVzW2ld
+LmlzRGlyZWN0b3J5KCkpIHsKCQkJZm91bmRQYXRoID0gZmluZFBhdGgoZmlsZXNbaV0uZ2V0QWJz
+b2x1dGVQYXRoKCksIGZpbGUpOwoJCQkKCQkJaWYgKGZvdW5kUGF0aCAhPSBudWxsKSB7CgkJCQly
+ZXR1cm4gZm91bmRQYXRoOwoJCQl9CgkJfQoJfQoJCglyZXR1cm4gbnVsbDsKfQoKcHJpdmF0ZSBz
+dGF0aWMgU3RyaW5nW10gcmVhZEZpbGVBc1N0cmluZ0xpc3QoU3RyaW5nIGZuYW1lLCBTdHJpbmdb
+XSBmaWx0ZXJzLCBpbnQgbWF4TGluZXMpIHRocm93cyBTZXJ2aWNlRXhjZXB0aW9uIHsKCQoJSW5w
+dXRTdHJlYW0gaXMgPSBuZXcgQnl0ZUFycmF5SW5wdXRTdHJlYW0ocmVhZEZpbGUoZm5hbWUpKTsK
+CQoJTGlzdDxTdHJpbmc+IGxpbmVzID0gbmV3IEFycmF5TGlzdDxTdHJpbmc+KCk7CglTdHJpbmcg
+bGluZSA9IG51bGw7CgkKCXRyeSAoQnVmZmVyZWRSZWFkZXIgcmRyID0gbmV3IEJ1ZmZlcmVkUmVh
+ZGVyKG5ldyBJbnB1dFN0cmVhbVJlYWRlcihpcykpOykgewoJCXdoaWxlICgobGluZT1yZHIucmVh
+ZExpbmUoKSkgIT0gbnVsbCkgewoJCQlpZiAoZmlsdGVycyA9PSBudWxsIHx8IG1hdGNoKGxpbmUs
+IGZpbHRlcnMpKQoJCQlsaW5lcy5hZGQobGluZSk7CgkJCQoJCQlpZiAobWF4TGluZXMgPiAwICYm
+IGxpbmVzLnNpemUoKSA+IG1heExpbmVzKSB7CgkJCQlsaW5lcy5yZW1vdmUoMCk7CgkJCX0KCQl9
+Cgl9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CgkJdGhyb3cgbmV3IFNlcnZpY2VFeGNlcHRpb24o
+ZSk7Cgl9CgkJCglyZXR1cm4gbGluZXMudG9BcnJheShuZXcgU3RyaW5nW2xpbmVzLnNpemUoKV0p
+Owp9Cgpwcml2YXRlIHN0YXRpYyBib29sZWFuIG1hdGNoKFN0cmluZyBsaW5lLCBTdHJpbmdbXSBm
+aWx0ZXJzKSB7CgkKCWJvb2xlYW4gbWF0Y2ggPSBmYWxzZTsKCQoJZm9yIChTdHJpbmcgZiA6IGZp
+bHRlcnMpIHsKCQlpZiAobGluZS5jb250YWlucyhmKSkgewoJCQltYXRjaCA9IHRydWU7CgkJCWJy
+ZWFrOwoJCX0KCX0KCQoJcmV0dXJuIG1hdGNoOwp9Cgpwcml2YXRlIHN0YXRpYyBieXRlW10gcmVh
+ZEZpbGUoU3RyaW5nIGZuYW1lKSB0aHJvd3MgU2VydmljZUV4Y2VwdGlvbiB7CgkKCWlmIChmbmFt
+ZSA9PSBudWxsKQoJCXRocm93IG5ldyBTZXJ2aWNlRXhjZXB0aW9uKCJwcm92aWRlIGZpbGUgbmFt
+ZSBwbGVhc2UiKTsKCQoJLy8gcHJvY2VzcwoJCglieXRlW10gZGF0YSA9IG51bGw7CgkKCXRyeSB7
+CgkJZGF0YSA9IEZpbGVzLnJlYWRBbGxCeXRlcyhQYXRocy5nZXQoZm5hbWUpKTsKCX0gY2F0Y2go
+Tm9TdWNoRmlsZUV4Y2VwdGlvbiBlKSB7CgkJCgkJdGhyb3cgbmV3IFNlcnZpY2VFeGNlcHRpb24o
+ZSk7Cgl9IGNhdGNoIChJT0V4Y2VwdGlvbiBlKSB7CgkJCgkJdGhyb3cgbmV3IFNlcnZpY2VFeGNl
+cHRpb24oZSk7Cgl9CgkJCQoJcmV0dXJuIGRhdGE7Cn0KCQ==</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.app.b2b.server.ServerAPI</value>
+    <value>com.ibm.icu.text.SimpleDateFormat</value>
+    <value>com.jc.wm.newrelic.ServiceInterceptor</value>
+    <value>com.wm.util.coder.JSONCoder</value>
+    <value>java.io.BufferedOutputStream</value>
+    <value>java.io.BufferedReader</value>
+    <value>java.io.ByteArrayInputStream</value>
+    <value>java.io.File</value>
+    <value>java.io.FileFilter</value>
+    <value>java.io.FileInputStream</value>
+    <value>java.io.FileOutputStream</value>
+    <value>java.io.FilenameFilter</value>
+    <value>java.io.IOException</value>
+    <value>java.io.InputStream</value>
+    <value>java.io.InputStreamReader</value>
+    <value>java.io.OutputStream</value>
+    <value>java.math.BigInteger</value>
+    <value>java.nio.file.CopyOption</value>
+    <value>java.nio.file.FileAlreadyExistsException</value>
+    <value>java.nio.file.FileSystems</value>
+    <value>java.nio.file.FileVisitResult</value>
+    <value>java.nio.file.Files</value>
+    <value>java.nio.file.NoSuchFileException</value>
+    <value>java.nio.file.Path</value>
+    <value>java.nio.file.Paths</value>
+    <value>java.nio.file.SimpleFileVisitor</value>
+    <value>java.nio.file.StandardCopyOption</value>
+    <value>java.nio.file.attribute.BasicFileAttributes</value>
+    <value>java.text.ParseException</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.Date</value>
+    <value>java.util.Enumeration</value>
+    <value>java.util.List</value>
+    <value>java.util.zip.ZipEntry</value>
+    <value>java.util.zip.ZipInputStream</value>
+    <value>java.util.zip.ZipOutputStream</value>
+  </array>
+</Values>

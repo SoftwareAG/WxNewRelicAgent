@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">diff</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUgaW4KCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0
+Q3Vyc29yKCk7CkRhdGUgZGF0ZTEgPSAoRGF0ZSkgSURhdGFVdGlsLmdldChwaXBlbGluZUN1cnNv
+ciwgImRhdGUxIik7CkRhdGUgZGF0ZTIgPSAoRGF0ZSkgSURhdGFVdGlsLmdldChwaXBlbGluZUN1
+cnNvciwgImRhdGUyIik7CgovLyBwcm9jZXNzCgpsb25nIGRpZmYgPSAwOwoKaWYgKGRhdGUxICE9
+IG51bGwpCnsKCWlmIChkYXRlMiA9PSBudWxsKQoJCWRhdGUyID0gbmV3IERhdGUoKTsKCQoJZGlm
+ZiA9IGRhdGUyLmdldFRpbWUoKSAtIGRhdGUxLmdldFRpbWUoKTsKfQoKLy8gcGlwZWxpbmUgb3V0
+CgpJRGF0YVV0aWwucHV0KHBpcGVsaW5lQ3Vyc29yLCAiZGlmZiIsICIiICsgZGlmZik7CklEYXRh
+VXRpbC5wdXQocGlwZWxpbmVDdXJzb3IsICJkaWZmSW5TZWNvbmRzIiwgIiIgKyBkaWZmIC8gMTAw
+MCk7CgpwaXBlbGluZUN1cnNvci5kZXN0cm95KCk7</value>
+</Values>
