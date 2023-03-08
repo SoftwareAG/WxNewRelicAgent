@@ -43,7 +43,7 @@ After restarting the page should show an "Online" status once the server has res
 
 The configuration section will now instead propose a "restore" button that will allow you to remove the AppDynamics java agent if required.
 
-# Configure the connection with you New Relic tenant license.
+# Configure the connection with your New Relic tenant license.
 
 You can either edit the agent config file directly via 
 ```
