@@ -33,17 +33,17 @@ Then restart your runtime server. Open the admin portal and click on Packages ->
 The screen shows if the connection is already established and the last few lines of the agent log file.
 Below that it shows the current configuration of your webMethods runtime and also indicates if the server is not yet configured.
 
-In your case the server will show as not yet configured so click on the merge button to add the AppDynamics java agent setup to the webMethods configuration file, but first check for any discrepancies and that any sequence numbers are not already in use. Once you have clicked on the merge button the page will ask you to restart the server or in the case of a webMethods edge (Microservices Runtime) to stop and then restart the server.
+In your case the server will show as not yet configured so click on the merge button to add the New Relic java agent setup to the webMethods configuration file, but first check for any discrepancies and that any sequence numbers are not already in use. Once you have clicked on the merge button the page will ask you to restart the server or in the case of a webMethods edge (Microservices Runtime) to stop and then restart the server.
 
-Don't restart your server yet as you still need to configure the connection to your AppDynamics server. Refer to the section below.
+Don't restart your server yet as you still need to configure the connection to your New Relic tenant. Refer to the section below.
 
 *NOTE:* A copy of the configuration file is made before the update, you can find it in the same directory as the config file with the same name and the extension .bak 
 
-After restarting the page should show an "Online" status once the server has restarted and after you have configured your AppDynamics settings as described below.
+After restarting the page should show an "Online" status once the server has restarted and after you have configured your New Relic settings as described below.
 
-The configuration section will now instead propose a "restore" button that will allow you to remove the AppDynamics java agent if required.
+The configuration section will now instead propose a "restore" button that will allow you to remove the New Relic java agent if required.
 
-# Configure the connection with you New Relic tenant license.
+# Configure the connection with your New Relic tenant license.
 
 You can either edit the agent config file directly via 
 ```
