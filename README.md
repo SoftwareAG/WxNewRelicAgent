@@ -6,6 +6,8 @@ This package configures the New Relic java agent to ensure that webMethods servi
 Includes tracing of custom context id's to help pinpoint individual business transactions.
 Also supports distributed tracing across http/https connections, and JMS and native (UM) messaging.
 
+## Setup
+
 Import the package into your Integration Server packages directory
 e.g.
 
@@ -43,7 +45,7 @@ After restarting the page should show an "Online" status once the server has res
 
 The configuration section will now instead propose a "restore" button that will allow you to remove the New Relic java agent if required.
 
-# Configure the connection with your New Relic tenant license.
+## Configure the connection with your New Relic tenant license.
 
 You can either edit the agent config file directly via 
 ```
