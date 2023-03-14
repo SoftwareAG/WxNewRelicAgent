@@ -47,7 +47,7 @@ The configuration section will now instead propose a "restore" button that will 
 
 ## Configure the connection with your New Relic tenant license.
 
-You can either edit the agent config file directly via 
+You can edit the agent config file directly via 
 ```
 [SAG_HOME]/IntegrationServer/instances/default/packages/WxNewRelicAgent/resources/newrelic/newrelic.yml
 ```
