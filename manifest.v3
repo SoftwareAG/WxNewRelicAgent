@@ -3,9 +3,9 @@
 <Values version="2.0">
   <value name="enabled">yes</value>
   <value name="system_package">no</value>
-  <value name="version">1.2</value>
-  <value name="build">202</value>
-  <value name="description">Embedded AppDynamics agent to ensure service tracing in AppDynamics</value>
+  <value name="version">1.2.1</value>
+  <value name="build">203</value>
+  <value name="description">Wrapas a custom service interceptor to ensure service tracing in New Relic</value>
   <value name="source_server_version">10.11</value>
   <record name="startup_services" javaclass="com.wm.util.Values">
     <null name="wx.newrelic.agent.config.tools:startup"/>
